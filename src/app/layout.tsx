@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.scss";
 import { Header } from "@/components/Header/Header";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "NextPlay",
