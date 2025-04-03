@@ -1,0 +1,23 @@
+.headerContainer {
+    padding: 2rem 3rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-family: var(--title-font);
+
+    nav {
+        display: flex;
+        gap: 2rem;
+
+        a {
+            transition: transform 0.3s linear;
+            transition: color 0.2s linear;
+        }
+
+        a:hover {
+            transform: scale(1.1);
+            color: var(--red)
+        }
+    }
+}
